@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.left-side{
+    width: 300px;
+    height: 100vh;
+    background: rgb(83, 210, 242);
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+    position:fixed;
+    left:0;
+}
+.left-side .profile-img {
+    width: 180px;
+    margin: 0 auto;
+}
+
+
+
+.left-side .profile-img  img{
+    width: 100%;
+    border-radius: 50%;
+}
+.left-side .name{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.left-side nav{
+    margin-top: 50px;
+}
+
+
+.left-side nav ul{
+
+    list-style: none;
+}
+
+.left-side nav ul  li{
+
+    display: block;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.left-side nav ul  li a{
+
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-size: 15px;
+    font-weight: 550;
+    }
+
+    .left-side nav ul li a:hover{
+        opacity:1;
+        text-decoration: underline;
+    }
+
+    .main-section {
+        width: calc(100%-30px);
+        position: fixed;
+        left: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+        padding: 40px;
+
+    }
+    .main-section .main-image img{
+        width: 100%;
+        border-radius: 50%;
+        
+    }
+
+    .main-section .main-image {
+        width: 180px;
+        margin: 0 auto;
+        
+    }
+
+    .main-text{
+        width: 50%;
+        margin-top: 10%;
+    }
+    .main-text h1{
+      font-size: 3rem;
+      color: gray;
+      margin-bottom: 20px;
+    }
+
+    .main-text button{
+        margin: 40px 0;
+        background-color: rgb(181, 239, 252);
+        padding: 10px 20px;
+        border:0;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }  
+
+    .main-text button:hover{
+        
+        border: 1px solid rgb(93, 198, 230);
+        
+    }  
+
+    .main-image{
+        width: 50%;
+        margin-top: 12%;
+    }
+
+    .main-image{
+        width: 100%;
+       background: linear-gradient(to right,rgb(125, 194, 217),rgb(40, 125, 153));
+       border-radius: 50% 0;
+    }  
